@@ -267,7 +267,7 @@ $(document).ready(function () {
         offset: '80%'
     });
     /**************************************************************************************************************/
-    const hon_waypoint_ta2_left = '.`js--wp-hon-ta2-left`';
+    const hon_waypoint_ta2_left = '.js--wp-hon-ta2-left';
     const hon_waypoint_ta2_right = '.js--wp-hon-ta2-right';
     $(hon_waypoint_ta2_left).css('opacity', 0);
     $(hon_waypoint_ta2_left).waypoint(function (direction) {

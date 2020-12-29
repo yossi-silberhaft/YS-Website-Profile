@@ -120,21 +120,34 @@ $(document).ready(function () {
     const skills_waypoint_row_3 = '.js--wp-skills-r-3';
 
     $(skills_waypoint_row_1).css('opacity', 0);
-    $(skills_waypoint_row_1).waypoint(function () {
+    $(skills_waypoint_row_1).waypoint(function (direction) {
         $(skills_waypoint_row_1).addClass('animate__bounceIn');
         $(skills_waypoint_row_1).animate({opacity: 1});
+        console.log(direction)
+        if (direction === 'up') {
+            $(skills_waypoint_row_1).removeClass('animate__bounceIn');
+            $(skills_waypoint_row_1).width();
+        }
     }, {offset: '80%'});
 
     $(skills_waypoint_row_2).css('opacity', 0);
-    $(skills_waypoint_row_2).waypoint(function () {
+    $(skills_waypoint_row_2).waypoint(function (direction) {
         $(skills_waypoint_row_2).addClass('animate__bounceIn');
         $(skills_waypoint_row_2).animate({opacity: 1});
+        if (direction === 'up') {
+            $(skills_waypoint_row_2).removeClass('animate__bounceIn');
+            $(skills_waypoint_row_2).width();
+        }
     }, {offset: '80%'});
 
     $(skills_waypoint_row_3).css('opacity', 0);
-    $(skills_waypoint_row_3).waypoint(function () {
+    $(skills_waypoint_row_3).waypoint(function (direction) {
         $(skills_waypoint_row_3).addClass('animate__bounceIn');
         $(skills_waypoint_row_3).animate({opacity: 1});
+        if (direction === 'up') {
+            $(skills_waypoint_row_3).removeClass('animate__bounceIn');
+            $(skills_waypoint_row_3).width();
+        }
     }, {offset: '80%'});
 
     /************************************

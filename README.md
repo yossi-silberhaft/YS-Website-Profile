@@ -2,7 +2,6 @@
 
 <p align="center"><strong> Live site <a href="https://yossi-silberhaft.com">here</a> ! </strong></p>
 
----
 
 ## Features
 
@@ -15,7 +14,6 @@
 - jQuery ✨
 - WorldVectorLogo ✨
 
----
 
 ## Author
 
@@ -25,7 +23,6 @@
 * LinkedIn: [@Yossi_Silberhaft](https://linkedin.com/in/yossi-silberhaft/)
 * Portfolio: [yossi-silberhaft.com](https://yossi-silberhaft.com)
 
----
 
 ## 📝 License
 

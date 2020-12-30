@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="eng">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" text="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" text="text/css" href="resources/css/queries.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -12,25 +14,19 @@
     <title>Yossi Silberhaft</title>
 <body>
 <header>
-    <!--    <nav>-->
-    <!--        <ul class="main-nav nav justify-content-center">-->
-    <!--            <li class="nav-item">-->
-    <!--                <a class="nav-link active" href="#about">About</a>-->
-    <!--            </li>-->
-    <!--            <li class="nav-item">-->
-    <!--                <a class="nav-link active" href="#experience">Experience</a>-->
-    <!--            </li>-->
-    <!--            <li class="nav-item">-->
-    <!--                <a class="nav-link" href="#education">Education</a>-->
-    <!--            </li>-->
-    <!--            <li class="nav-item">-->
-    <!--                <a class="nav-link" href="#service">Service & Leadership</a>-->
-    <!--            </li>-->
-    <!--            <li class="nav-item">-->
-    <!--                <a class="nav-link" href="#honors">Honors & Awards</a>-->
-    <!--            </li>-->
-    <!--        </ul>-->
-    <!--    </nav>-->
+
+    <nav>
+        <ul class="main-nav nav justify-content-center">
+            <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+            <li class="nav-item"><a class="nav-link" href="#service">Service & Leadership</a></li>
+            <li class="nav-item"><a class="nav-link" href="#honors">Honors & Awards</a>
+        </ul>
+    </nav>
+
     <div class="title-text-box">
         <h1 class="name-header">Yossi Silberhaft</h1>
         <h2 class="sub-title">Interactive Profile</h2>
@@ -43,10 +39,48 @@
         <h2>About Me</h2>
     </div>
     <div class="container">
+        <!--        <div class="row justify-content-center">-->
+        <!--            <div class="col-2 col-md-2 about-img">-->
+        <!--                <img src="resources/css/img/yossi-profile.png" class="profile-pic">-->
+
+        <!--            </div>-->
+        <!--        </div>-->
+
         <div class="row justify-content-center">
-            <div class="col-1">
+            <div class="col-7 right-col">
+                <ul class="sub-list">
+                    <li><span class="profile-body">4+ years experience in Server and Client side development as well as AWS Cloud
+                        Services and Infrastructure. Currently a Full Stack and Infrastructure
+                        Team Leader for a leading tech company in Tel Aviv.
+                        <br/>Having strong communication, leadership and technical background.
+                        Equipped with a diverse and promising skill-set.
+                        Extensive expertise in large system architecture development and administration </span>
+                    </li>
+                    <br/>
+                    <li>
+                        <strong class="contact-key">Email: </strong><a href="mailto:yossisilb@gmail.com"
+                                                                       data-v-ab5f1dfc="">yossisilb@gmail.com</a><br/>
+                        <strong class="contact-key">City: </strong>Tel-Aviv, Israel<br/>
+                        <strong class="contact-key">Languages: </strong>English, Hebrew<br/>
+                    </li>
+                    <ul class="about-social-links">
+                        <li><a target="_blank" rel="noopener noreferrer"
+                               href="https://linkedin.com/in/yossi-silberhaft/"><i
+                                class="fab fa-linkedin icon-link"></i></a>
+                        </li>
+
+                        <li><a target="_blank" rel="noopener noreferrer"
+                               href="https://github.com/Silby17"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="col-3 left-col">
+                <img src="resources/css/img/yossi-profile.png" class="profile-pic">
             </div>
         </div>
+    </div>
+
+
     </div>
 </section>
 
@@ -68,7 +102,7 @@
                         team mentioned below, while remaining very hands on.
                         Built the AWS Cloud infrastructure for our entire division</span>
                     </li>
-                    <li class="location"><i class="fas fa-map-marker-alt location-icon"></i> Johannesburg, South Africa
+                    <li class="location"><i class="fas fa-map-marker-alt location-icon"></i> Tel-Aviv, Israel
                     </li>
                 </ul>
             </div>
@@ -98,8 +132,10 @@
             </div>
             <div class="col-5 right-col js--wp-exp-iron1-col-right">
                 <ul class="sub-list">
-                    <li>Back End Developer<br><span>Backend developer responsible for providing tools and online solutions from one-time scripts to dashboards and automating all recurring processes.<br/>
-                        Writing code mainly in Python. Administering CI/CD (Jenkins) and advanced Jira functionality, workflow and administration</span>
+                    <li>Back End Developer<br><span>Backend developer responsible for providing tools
+                        and online solutions from one-time scripts to dashboards and automating all recurring processes.<br/>
+                        Writing code mainly in Python. Administering CI/CD (Jenkins) and advanced Jira
+                        functionality, workflow and administration</span>
                     </li>
                     <li class="location"><i class="fas fa-map-marker-alt location-icon"></i> Tel Aviv, Israel</li>
                 </ul>
@@ -129,9 +165,11 @@
             </div>
             <div class="col-5 right-col js--wp-exp-quest-right">
                 <ul class="sub-list">
-                    <li>Intern<br><span>Computer Technician, development services and management of information systems, computer repair, hardware and software. provide techinical support for clients</span>
+                    <li>Intern<br><span>Computer Technician, development services and management of
+                        information systems, computer repair, hardware and software. provide technical support for clients</span>
                     </li>
-                    <li class="location"><i class="fas fa-map-marker-alt location-icon"></i> Givat Shmuel, Israel</li>
+                    <li class="location"><i class="fas fa-map-marker-alt location-icon"></i> Johannesburg, South Africa
+                    </li>
                 </ul>
             </div>
         </div>
@@ -427,7 +465,7 @@
 <!--FOOTER-->
 <footer>
     <div class="row justify-content-center">
-        <div class="col-7">
+        <div class="col-8">
             <ul class="footer-nav">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>

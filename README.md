@@ -6,13 +6,13 @@
 ## Features
 
 - Built with HTML and CSS ✨
+- Animate.css 4.1.1 ✨
 - One-page layout ✨
+- WorldVectorLogo ✨
 - Font Awesome ✨
 - Bootstrap 5.0 ✨
 - Responsive ✨
-- Animate.css 4.1.1 ✨
 - jQuery ✨
-- WorldVectorLogo ✨
 
 
 ## Author

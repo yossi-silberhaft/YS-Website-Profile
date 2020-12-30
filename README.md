@@ -10,8 +10,8 @@
 - One-page layout ✨
 - WorldVectorLogo ✨
 - Font Awesome ✨
-- Bootstrap 5.0 ✨
-- Responsive ✨
+- Bootstrap 4.0.0 ✨
+- Responsive ✨`
 - jQuery ✨
 
 

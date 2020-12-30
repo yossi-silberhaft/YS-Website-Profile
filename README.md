@@ -11,7 +11,7 @@
 - WorldVectorLogo ✨
 - Font Awesome ✨
 - Bootstrap 4.0.0 ✨
-- Responsive ✨`
+- Responsive ✨
 - jQuery ✨
 
 

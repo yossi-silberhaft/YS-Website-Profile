@@ -2,6 +2,23 @@ $(document).ready(function () {
     /************************************
      * Experience Animations per row
      ************************************/
+    const exp_wp_rise_left = '.js--wp-exp-rise-col-left'
+    const exp_wp_rise_right = '.js--wp-exp-rise-col-right'
+    $(exp_wp_rise_left).css('opacity', 0)
+    $(exp_wp_rise_left).waypoint(function (direction) {
+        $(exp_wp_rise_left).addClass('animate__animated animate__fadeInLeft')
+        $(exp_wp_rise_left).css('opacity', 1)
+    }, {
+        offset: '80%'
+    })
+    $(exp_wp_rise_right).css('opacity', 0)
+    $(exp_wp_rise_right).waypoint(function (direction) {
+        $(exp_wp_rise_right).addClass('animate__animated animate__fadeInRight')
+        $(exp_wp_rise_right).css('opacity', 1)
+    }, {
+        offset: '80%'
+    })
+
     $('.js--wp-exp-iron3-col-left').css('opacity', 0)
     $('.js--wp-exp-iron3-col-left').waypoint(function (direction) {
         $('.js--wp-exp-iron3-col-left').addClass('animate__animated animate__fadeInLeft')

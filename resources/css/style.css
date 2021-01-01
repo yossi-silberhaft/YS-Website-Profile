@@ -320,6 +320,10 @@ footer p {
     font-size: 160%;
 }
 
-.icon-link:hover {
-    color: #4875B4;
+.linkedin-icon:hover {
+    color: #0e76a8;
+}
+
+.github-icon:hover {
+    color: #000000;
 }

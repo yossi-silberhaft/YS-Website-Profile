@@ -32,7 +32,7 @@ body {
 }
 
 section {
-    padding: 60px 0;
+    padding: 30px 0;
 }
 
 .section-dark {
@@ -167,16 +167,30 @@ header {
 /* ----------------------------------------------- */
 /* ABOUT ME
 /* ----------------------------------------------- */
+.profile-pic-col {
+    text-align: right;
+}
+
 .profile-pic {
     height: 200px;
 }
 
 .profile-body {
-    font-size: 90% !important;
+    font-weight: 350;
+    font-size: 85%;
+    color: #182153;
 }
 
 .contact-key {
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-items {
+    font-size: 16px !important;
+}
+.contact-items a:link {
+    font-size: 16px;
 }
 
 .about-social-links {
@@ -212,6 +226,7 @@ header {
 }
 
 .left-col ul li {
+    font-size: 18px;
     float: left;
     list-style: none;
     font-weight: 600;
@@ -222,6 +237,7 @@ header {
     font-weight: 300;
     float: left;
     padding-top: 3px;
+    font-size: 16px;
 }
 
 .right-col {
@@ -229,11 +245,14 @@ header {
     color: #182153;
     font-size: 90%
 }
-
+/*.right-col li {*/
+/*    font-weight: 350;*/
+/*    font-size: 20px;*/
+/*}*/
 
 .right-col li span {
     font-weight: 350;
-    font-size: 80%
+    font-size: 16px;
 }
 
 /* ----------------------------------------------- */

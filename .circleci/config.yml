@@ -15,9 +15,9 @@ jobs:
       - run:
           name: Copy files to S3 Bucket ys-profile-website
           command: aws s3 cp . s3://ys-profile-website-staging --recursive --exclude "*" --include "index.html" --include "favicon.ico" --include "resources/*" --include "vendors/*"
-      -run:
-        name: Invalidate CloudFront Distribution
-        command: aws cloudfront create-invalidation --distribution-id E2DHEWFM7HZ75X --paths "/*"
+      - run:
+          name: Invalidate CloudFront Distribution
+          command: aws cloudfront create-invalidation --distribution-id E2DHEWFM7HZ75X --paths "/*"
 
 workflows:
   build:

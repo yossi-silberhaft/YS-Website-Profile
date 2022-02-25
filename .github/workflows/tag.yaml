@@ -14,7 +14,7 @@ jobs:
       - name: Upload to S3
         uses: jakejarvis/s3-sync-action@master
         with:
-          args: --acl public-read --follow-symlinks --exclude "*" --include "index.html" --include "favicon.ico" --include "resources/*" --include "vendors/*"
+          args: --follow-symlinks --exclude '*' --include 'index.html' --include 'favicon.ico' --include 'resources/*' --include 'vendors/*'
         env:
           AWS_S3_BUCKET: "ys-profile-website-staging"
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}

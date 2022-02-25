@@ -1,5 +1,8 @@
 name: Upload-Live
-on: [push]
+on:
+  push:
+    tags:
+      - v[0-9]+.[0-9]+.[0-9]+
 
 jobs:
   build:
@@ -9,9 +12,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - id: details
-        run: |
-          echo "::set-output name=version::$GITHUB_REF_NAME"
       - name: Upload to S3
         uses: jakejarvis/s3-sync-action@master
         with:

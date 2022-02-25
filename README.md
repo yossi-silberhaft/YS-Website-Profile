@@ -2,6 +2,7 @@
 
 <p align="center"><strong> Live site <a href="https://yossi-silberhaft.com">here</a> ! </strong></p>
 
+![example workflow](https://github.com/Silby17/YS-Website-Profile/actions/workflows/tag.yaml/badge.svg)
 
 ## Features
 

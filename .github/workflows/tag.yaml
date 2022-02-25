@@ -1,0 +1,29 @@
+name: production
+on: [ push ]
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - id: details
+        run: |
+          echo "::set-output name=version::$GITHUB_REF_NAME"
+      - name: Upload to S3
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: |
+          --acl public-read --follow-symlinks --exclude "*" --include "index.html" --include "favicon.ico" --include "resources/*" --include "vendors/*"
+        env:
+          AWS_S3_BUCKET: "ys-profile-website-staging"
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+#
+#      - name: Release
+#        if: contains(github.ref, 'redeploy') == false
+#        uses: docker://antonyurchenko/git-release:v4
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.CI_ACCESS_TOKEN }}

@@ -1,6 +1,6 @@
 <h1 align="center">Yossi Silberhaft Website Profile</h1>
 
-<p align="center"><strong> Live site <a href="https://yossi-silberhaft.com">here</a> ! </strong></p>
+<p align="center"><strong> Live site <a href="https://yossi.silberhaft.com">here</a> ! </strong></p>
 
 ![example workflow](https://github.com/Silby17/YS-Website-Profile/actions/workflows/tag.yaml/badge.svg)
 
@@ -20,9 +20,9 @@
 
 👤 **Yossi Silberhaft**
 
-* Github: [@Silby17](https://github.com/Silby17)
+* Github: [@yossi-silberhaft](https://github.com/yossi-silberhaft)
 * LinkedIn: [@Yossi_Silberhaft](https://linkedin.com/in/yossi-silberhaft/)
-* Portfolio: [yossi-silberhaft.com](https://yossi-silberhaft.com)
+* Portfolio: [yossi.silberhaft.com](https://yossi.silberhaft.com)
 
 
 ## 📝 License
